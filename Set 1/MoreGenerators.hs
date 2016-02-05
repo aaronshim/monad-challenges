@@ -1,3 +1,4 @@
+module MoreGenerators where
 import MCPrelude
 
 type Gen a = Seed -> (a, Seed)

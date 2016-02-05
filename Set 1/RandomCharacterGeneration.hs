@@ -1,3 +1,4 @@
+module RandomCharacterGeneration where
 import MCPrelude
 
 randLetter :: Seed -> (Char, Seed)

@@ -1,3 +1,4 @@
+module RandomNumberGeneration where
 import MCPrelude
 
 fiveRands :: [Integer]

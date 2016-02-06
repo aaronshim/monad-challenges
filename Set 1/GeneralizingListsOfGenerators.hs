@@ -10,4 +10,4 @@ repRandom [] = \s -> ([], s)
 repRandom (x:xs) = generalB (:) x $ repRandom xs
 
 main = do
-	print $ fst $ repRandom (replicate 3 randLetter) (mkSeed 1)
+    print $ fst $ repRandom (replicate 3 randLetter) (mkSeed 1)
